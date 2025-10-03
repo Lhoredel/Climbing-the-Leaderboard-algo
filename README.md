@@ -1,1 +1,2 @@
 # Climbing-the-Leaderboard-algo
+This code solves the Climbing the Leaderboard problem by determining a player's rank after each game on a dense ranking leaderboard. It first removes duplicate scores to create distinct ranks, then efficiently tracks the player's position by scanning from the bottom of the leaderboard upward. The algorithm calculates each new score's rank by finding its insertion point in the descending sorted leaderboard without fully resorting after each game.
